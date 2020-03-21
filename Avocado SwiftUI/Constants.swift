@@ -37,3 +37,14 @@ struct AvocadoHeaderImages {
     static let kAvocadoSlice5 = "avocado-slice-5"
     static let kAvocadoSlice6 = "avocado-slice-6"
 }
+
+struct IconNames {
+    static let kIcontoasts = "icon-toasts"
+    static let kIcontacos = "icon-tacos"
+    static let kIconsoup = "icon-soup"
+    static let kIconsmoothies = "icon-smoothies"
+    static let kIconsandwiches = "icon-sandwiches"
+    static let kIiconsalads = "icon-salads"
+    static let kIconhalfavo = "icon-halfavo"
+    static let kIconguacamole = "icon-guacamole"
+}

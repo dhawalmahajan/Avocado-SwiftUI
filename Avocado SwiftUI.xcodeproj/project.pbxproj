@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7D14BB2424804600AEF3BA /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D14BA2424804600AEF3BA /* HeaderModel.swift */; };
+		8B7D14BD242480B500AEF3BA /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D14BC242480B500AEF3BA /* HeaderData.swift */; };
+		8B7D14BF24248D1A00AEF3BA /* DishesVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D14BE24248D1A00AEF3BA /* DishesVIew.swift */; };
 		8B7D4A5F23E6763E008CDA52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D4A5E23E6763E008CDA52 /* AppDelegate.swift */; };
 		8B7D4A6123E6763E008CDA52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D4A6023E6763E008CDA52 /* SceneDelegate.swift */; };
 		8B7D4A6323E6763E008CDA52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D4A6223E6763E008CDA52 /* ContentView.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B7D14BA2424804600AEF3BA /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		8B7D14BC242480B500AEF3BA /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		8B7D14BE24248D1A00AEF3BA /* DishesVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesVIew.swift; sourceTree = "<group>"; };
 		8B7D4A5B23E6763E008CDA52 /* Avocado SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avocado SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7D4A5E23E6763E008CDA52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B7D4A6023E6763E008CDA52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +105,7 @@
 				8BF4898B23E68E9C003C8C9A /* RipeningStagesView.swift */,
 				8BF4898D23E68EA9003C8C9A /* SettingsView.swift */,
 				8BF4899123E69B29003C8C9A /* HeaderView.swift */,
+				8B7D14BE24248D1A00AEF3BA /* DishesVIew.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -106,6 +113,7 @@
 		8BF4898523E68E47003C8C9A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8B7D14BA2424804600AEF3BA /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,6 +121,7 @@
 		8BF4898623E68E4E003C8C9A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				8B7D14BC242480B500AEF3BA /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -188,14 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7D14BD242480B500AEF3BA /* HeaderData.swift in Sources */,
 				8BF4898E23E68EA9003C8C9A /* SettingsView.swift in Sources */,
 				8BF4899223E69B29003C8C9A /* HeaderView.swift in Sources */,
 				8BF4898A23E68E8C003C8C9A /* AvocadosView.swift in Sources */,
 				8BF4898823E68E7C003C8C9A /* AppView.swift in Sources */,
+				8B7D14BB2424804600AEF3BA /* HeaderModel.swift in Sources */,
 				8B7D4A5F23E6763E008CDA52 /* AppDelegate.swift in Sources */,
 				8B7D4A6123E6763E008CDA52 /* SceneDelegate.swift in Sources */,
 				8B7D4A6323E6763E008CDA52 /* ContentView.swift in Sources */,
 				8BF4898C23E68E9C003C8C9A /* RipeningStagesView.swift in Sources */,
+				8B7D14BF24248D1A00AEF3BA /* DishesVIew.swift in Sources */,
 				8BF4899023E68FD1003C8C9A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

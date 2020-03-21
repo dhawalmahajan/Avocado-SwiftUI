@@ -10,6 +10,7 @@ import SwiftUI
 
 struct HeaderView: View {
     //MARK: Properties
+    var header: Header
     @State private var showHeadeLine: Bool = false
     private var slideinAnimation: Animation {
         Animation.spring(response: 1.5, dampingFraction: 0.5, blendDuration: 0.5)
@@ -19,7 +20,7 @@ struct HeaderView: View {
     
     var body: some View {
         ZStack {
-            Image(AvocadoHeaderImages.kAvocadoSlice1)
+            Image(header.image)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
             
@@ -28,13 +29,13 @@ struct HeaderView: View {
                     .fill(Color(ColorCodes.kColorGreenLight))
                     .frame(width: 4)
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("Avocados")
+                    Text(header.headline)
                         .font(.system(.title, design: .serif))
                         .fontWeight(.bold)
                         .foregroundColor(Color.white)
                         .shadow(radius: 3)
                     
-                    Text("Avocados are powerhouseingredient at any meal for anyone.")
+                    Text(header.subheadline)
                         .font(.footnote)
                         .lineLimit(2)
                         .multilineTextAlignment(.leading)
@@ -60,7 +61,8 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView()
+        HeaderView(header: headerData[0])
             .previewLayout(.sizeThatFits)
+            .environment(\.colorScheme, .dark)
     }
 }
