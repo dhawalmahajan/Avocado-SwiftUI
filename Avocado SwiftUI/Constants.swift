@@ -27,6 +27,7 @@ struct ColorCodes {
     static let kColorGreenDark = "ColorGreenDark"
     static let kColorGreenLight = "ColorGreenLight"
     static let kColorGreenMedium = "ColorGreenMedium"
+    static let kColorAppearanceAdaptive = "ColorAppearanceAdaptive"
 }
 
 struct AvocadoHeaderImages {
@@ -36,6 +37,21 @@ struct AvocadoHeaderImages {
     static let kAvocadoSlice4 = "avocado-slice-4"
     static let kAvocadoSlice5 = "avocado-slice-5"
     static let kAvocadoSlice6 = "avocado-slice-6"
+}
+
+struct AvocadoFactsImages {
+    static let kAvocadoFact1 = "avocado-fact-1"
+    static let kAvocadoFact2 = "avocado-fact-2"
+    static let kAvocadoFact3 = "avocado-fact-3"
+    static let kAvocadoFact4 = "avocado-fact-4"
+    static let kAvocadoFact5 = "avocado-fact-5"
+    static let kAvocadoFact6 = "avocado-fact-6"
+    static let kAvocadoFact7 = "avocado-fact-7"
+    static let kAvocadoFact8 = "avocado-fact-8"
+    static let kAvocadoFact9 = "avocado-fact-9"
+    static let kAvocadoFact10 = "avocado-fact-10"
+    static let kAvocadoFact11 = "avocado-fact-11"
+    static let kAvocadoFact12 = "avocado-fact-12"
 }
 
 struct IconNames {
