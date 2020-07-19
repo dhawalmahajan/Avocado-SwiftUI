@@ -54,6 +54,15 @@ struct AvocadoFactsImages {
     static let kAvocadoFact12 = "avocado-fact-12"
 }
 
+struct AvocadoRipeningImages {
+    static let kAvocadoRipening1 = "avocado-ripening-1"
+    static let kAvocadoRipening2 = "avocado-ripening-2"
+    static let kAvocadoRipening3 = "avocado-ripening-3"
+    static let kAvocadoRipening4 = "avocado-ripening-4"
+    static let kAvocadoRipening5 = "avocado-ripening-5"
+}
+
+
 struct IconNames {
     static let kIcontoasts = "icon-toasts"
     static let kIcontacos = "icon-tacos"
